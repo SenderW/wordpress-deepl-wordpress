@@ -1,0 +1,4 @@
+This Python imports posts from an existing WordPress installation, sends them for translation via Deepl API and uploads the translated posts to another WordPress.
+In this case German -> Deepl -> Russian.
+Code works, but it is currently much cheaper to let ChatGPT write the articles anew instead of translating them.
+So the newer solution is a program for Importing posts, cutting them into pieces => sending them to ChatGPT for review, updates, translation => glue the pieces together => upload to target WordPres.
